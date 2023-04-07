@@ -76,9 +76,16 @@ export default function Skills() {
                         </div>
 
                         <div>
-                            <p className="font-semibold ">Github</p>
+                            <p className="font-semibold ">GITHUB</p>
                             <div className="relative bg-gray-400 h-[6px] mt-2 w-[90%]">
                                 <div className="bg-[#ff4D41] absolute h-[6px] w-[85%]"></div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <p className="font-semibold ">CONTENTFUL</p>
+                            <div className="relative bg-gray-400 h-[6px] mt-2 w-[90%]">
+                                <div className="bg-[#ff4D41] absolute h-[6px] w-[90%]"></div>
                             </div>
                         </div>
 
