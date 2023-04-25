@@ -2,6 +2,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { RevealWrapper } from 'next-reveal';
+import { ProjectsData } from "./Database";
 
 
 export default function Projects() {
@@ -20,29 +21,15 @@ export default function Projects() {
                 distance="100px"
                 reset={true}
             >
-                <div className="md:flex md:justify-around">
-                    <div>
-                        <Link href={"https://chakra-ui-pricing-project.vercel.app/"} target="_blank" title="click to visit">
-                            <Image src="/pricing.png" alt="logo" height={300} width={300} className="border-4 border-black" />
-                            <p className="text-center font-extrabold pr-8 md:pr-0">Pricing Ui</p>
-                        </Link>
-                    </div>
-
-
-                    <div className="md:my-0 my-16">
-                        <Link href={"https://text-utils-react-flax.vercel.app/"} target="_blank" title="click to visit" >
-                            <Image src="/text.png" alt="logo" height={300} width={300} className="border-4 border-black" />
-                            <p className="text-center font-extrabold pr-10 md:pr-0">Text-Utils-App</p>
-                        </Link>
-                    </div>
-
-
-                    <div>
-                        <Link href={"https://nextjs-counter-app.vercel.app/"} target="_blank" title="click to visit">
-                            <Image src="/counter.png" alt="logo" height={300} width={300} className="border-4 border-black" />
-                            <p className="text-center font-extrabold pr-11 md:pr-0">Counter App</p>
-                        </Link>
-                    </div>
+                <div className="grid md:grid-cols-4 gap-5">
+                    {ProjectsData.map((elem: any) => (
+                        <div key={elem.key}>
+                            <Link href={elem.link} target="_blank" title="click to visit">
+                                <Image src={elem.image} alt="logo" height={300} width={300} className="border-4 border-black" />
+                                <p className="text-center font-extrabold pr-8 md:pr-0">{elem.title}</p>
+                            </Link>
+                        </div>
+                    ))}
                 </div>
             </RevealWrapper>
         </div>
