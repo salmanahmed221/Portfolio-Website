@@ -27,6 +27,12 @@ export const ProjectsData = [
         id: 5,
         link: "https://panaverse-practice-single-page.vercel.app/",
         image: "/Panaverse.png",
-        title: "Panaverse Project"
+        title: "Panaverse Website Design"
+    },
+    {
+        id: 6,
+        link: "https://tailwind-css-panaverse-dao-project.vercel.app/",
+        image: "/PanaverseSite.png",
+        title: "Panaverse Dao Project"
     },
 ]
