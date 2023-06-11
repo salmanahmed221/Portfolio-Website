@@ -35,4 +35,10 @@ export const ProjectsData = [
         image: "/PanaverseSite.png",
         title: "Panaverse Dao Project"
     },
+    {
+        id: 7,
+        link: "https://hackaton-one-rose.vercel.app/",
+        image: "/dinemarket.png",
+        title: "Dine Market Store"
+    },
 ]
