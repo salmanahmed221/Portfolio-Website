@@ -37,7 +37,7 @@ export const ProjectsData = [
     },
     {
         id: 7,
-        link: "https://hackaton-one-rose.vercel.app/",
+        link: "https://hackaton-one-eight.vercel.app/",
         image: "/dinemarket.png",
         title: "Dine Market Store"
     },
