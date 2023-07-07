@@ -7,7 +7,7 @@ export const ProjectsData = [
     },
     {
         id: 2,
-        link: "https://chakra-landing-page-beta.vercel.app/",
+        link: "https://chakra-landing-page-with-pages-directory.vercel.app/",
         image: "/ChakraLanding.png",
         title: "Landing Page"
     },
