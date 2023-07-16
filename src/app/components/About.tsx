@@ -38,10 +38,6 @@ export default function About() {
                             >
                                 <div className="flex flex-col gap-6">
                                     <div className="flex gap-4 items-center font-medium">
-                                        <AiOutlineGift className="text-[#ff4D41] text-[22px]" />
-                                        Birthday : 30/10/2002
-                                    </div>
-                                    <div className="flex gap-4 items-center font-medium">
                                         <FiBookOpen className="text-[#ff4D41] text-[22px]" />
                                         Study : University of Computer Science
                                     </div>
