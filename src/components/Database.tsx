@@ -41,4 +41,10 @@ export const ProjectsData = [
         image: "/dinemarket.png",
         title: "Dine Market Store"
     },
+    {
+        id: 8,
+        link: "https://permabull-indol.vercel.app/",
+        image: "/permabull.png",
+        title: "Permabull"
+    },
 ]
