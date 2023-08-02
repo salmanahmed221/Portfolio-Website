@@ -12,7 +12,7 @@ export default function Herosection() {
                             I&apos;m Salman Ahmed
                         </h1>
                         <h4 className="text-2xl mt-3 font-bold">
-                            Frontend Developer and UI/UX Designer
+                            Frontend Web Developer
                         </h4>
                     </div>
 
