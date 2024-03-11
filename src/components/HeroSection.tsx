@@ -7,7 +7,9 @@ export default function Herosection() {
         <div className="container mx-auto px-4">
           <div className="max-w-[450px] text-white flex flex-col gap-[40px]">
             <div>
-              <h1 className="text-5xl font-bold">I&apos;m Salman Ahmed</h1>
+              <h1 className="text-5xl font-bold pt-20">
+                I&apos;m Salman Ahmed
+              </h1>
               <h4 className="text-2xl mt-3 font-bold">
                 Full Stack Web Developer
               </h4>
