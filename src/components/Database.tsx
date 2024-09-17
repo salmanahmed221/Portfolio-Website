@@ -53,4 +53,10 @@ export const ProjectsData = [
     image: "/destra.png",
     title: "Destra Network",
   },
+  {
+    id: 10,
+    link: "https://wafid-appointments.vercel.app/",
+    image: "/wafid.png",
+    title: "Wafid Appointment",
+  },
 ];
