@@ -23,7 +23,7 @@ export default function About() {
               alt="avatar"
               height={350}
               width={350}
-              className="-ml-3"
+              className="mx-auto"
             />
           </div>
 
@@ -61,7 +61,7 @@ export default function About() {
                     <p className="text-gray-600 md:w-[460px] text-justify font-medium">
                       Hi! My name is Salman Ahmed. I am a web Developer, and
                       I&apos;m very passionate and doing my work with more than
-                      1 year experience as a professional
+                      2 year experience as a professional
                     </p>
                     <button className="bg-[#ff4D41] text-white py-2 px-4 rounded inline-block mt-10 font-medium border border-[#ff4D41] hover:bg-transparent hover:text-[#ff4D41] transition duration-200">
                       <Link

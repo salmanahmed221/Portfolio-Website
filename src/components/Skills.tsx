@@ -105,28 +105,28 @@ export default function Skills() {
             </div>
 
             <div>
-              <p className="font-semibold ">Python</p>
+              <p className="font-semibold ">PYTHON</p>
               <div className="relative bg-gray-400 h-[6px] mt-2 w-[90%]">
                 <div className="bg-[#ff4D41] absolute h-[6px] w-[95%]"></div>
               </div>
             </div>
 
             <div>
-              <p className="font-semibold ">Generative Ai</p>
+              <p className="font-semibold ">GENERATIVE AI</p>
               <div className="relative bg-gray-400 h-[6px] mt-2 w-[90%]">
                 <div className="bg-[#ff4D41] absolute h-[6px] w-[90%]"></div>
               </div>
             </div>
 
             <div>
-              <p className="font-semibold ">FastApi</p>
+              <p className="font-semibold ">FASTAPI</p>
               <div className="relative bg-gray-400 h-[6px] mt-2 w-[90%]">
                 <div className="bg-[#ff4D41] absolute h-[6px] w-[95%]"></div>
               </div>
             </div>
 
             <div>
-              <p className="font-semibold ">PostgreSQL</p>
+              <p className="font-semibold ">POSTGRESQL</p>
               <div className="relative bg-gray-400 h-[6px] mt-2 w-[90%]">
                 <div className="bg-[#ff4D41] absolute h-[6px] w-[85%]"></div>
               </div>
@@ -136,6 +136,13 @@ export default function Skills() {
               <p className="font-semibold ">SQL</p>
               <div className="relative bg-gray-400 h-[6px] mt-2 w-[90%]">
                 <div className="bg-[#ff4D41] absolute h-[6px] w-[95%]"></div>
+              </div>
+            </div>
+
+            <div>
+              <p className="font-semibold ">REACT. JS</p>
+              <div className="relative bg-gray-400 h-[6px] mt-2 w-[90%]">
+                <div className="bg-[#ff4D41] absolute h-[6px] w-[85%]"></div>
               </div>
             </div>
           </div>

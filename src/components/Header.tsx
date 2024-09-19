@@ -58,7 +58,7 @@ export default function Header() {
           {/* Button */}
 
           <div>
-            <button className="hidden md:flex border border-[#ff4D41] px-4 py-1 text-[#ff4D41] rounded-[5px] items-center gap-2 hover:bg-[#ff4D41] hover:text-white transition duration-200">
+            <button className="hidden md:flex border border-[#ff4D41] px-4 py-2 text-[#ff4D41] rounded-[5px] items-center gap-2 hover:bg-[#ff4D41] hover:text-white transition duration-200">
               <Link
                 href={
                   "https://www.linkedin.com/in/salman-ahmed-2ab77b248?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
@@ -66,8 +66,9 @@ export default function Header() {
                 title="click to visit"
                 target="_blank"
               >
-                Hire Me <FaRegHandPaper />
+                Hire Me
               </Link>
+              <FaRegHandPaper />
             </button>
           </div>
 
