@@ -170,18 +170,13 @@ export default function Header() {
             </button>
           </div>
 
-          {/* Nav links with staggered animation */}
+          {/* Nav links */}
           <nav className="flex-1 px-6 py-8">
-            {navLinks.map((link, i) => (
+            {navLinks.map((link) => (
               <button
                 key={link.id}
                 onClick={() => handleNavClick(link.id)}
                 className="block w-full text-left text-white text-2xl font-bold py-4 hover:text-accent transition-colors duration-200 border-b border-white/5"
-                style={{
-                  animation: menuOpen
-                    ? `slideInRight 0.4s ease-out ${i * 0.08}s both`
-                    : "none",
-                }}
               >
                 {link.label}
               </button>
@@ -189,14 +184,7 @@ export default function Header() {
           </nav>
 
           {/* Bottom section - CTA and social */}
-          <div
-            className="p-6 border-t border-white/5 space-y-4"
-            style={{
-              animation: menuOpen
-                ? "slideInRight 0.4s ease-out 0.32s both"
-                : "none",
-            }}
-          >
+          <div className="p-6 border-t border-white/5 space-y-4">
             <Link
               href="https://www.linkedin.com/in/salman-ahmed-2ab77b248"
               target="_blank"
@@ -238,16 +226,6 @@ export default function Header() {
           }
           to {
             opacity: 1;
-          }
-        }
-        @keyframes slideInRight {
-          from {
-            opacity: 0;
-            transform: translateX(30px);
-          }
-          to {
-            opacity: 1;
-            transform: translateX(0);
           }
         }
       `}</style>
