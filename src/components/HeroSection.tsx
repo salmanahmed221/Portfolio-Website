@@ -118,7 +118,7 @@ export default function Herosection() {
                   <FaLinkedinIn />
                 </Link>
                 <Link
-                  href="https://github.com/salmanahmed-dev"
+                  href="https://github.com/salmanahmed221"
                   target="_blank"
                   className="w-9 h-9 glass-card rounded-lg flex items-center justify-center text-slate-400 hover:text-accent hover:border-accent/40 transition-all duration-200 card-hover"
                 >

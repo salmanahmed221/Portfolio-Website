@@ -44,7 +44,7 @@ export default function Footer() {
                 <FaLinkedinIn />
               </Link>
               <Link
-                href="https://github.com/salmanahmed-dev"
+                href="https://github.com/salmanahmed221"
                 target="_blank"
                 aria-label="GitHub"
                 className="w-9 h-9 glass-card rounded-lg flex items-center justify-center text-slate-400 hover:text-accent transition-colors"
@@ -104,5 +104,3 @@ export default function Footer() {
     </footer>
   );
 }
-
-

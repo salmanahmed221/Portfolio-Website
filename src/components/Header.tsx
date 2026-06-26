@@ -206,7 +206,7 @@ export default function Header() {
                 <FaLinkedinIn className="text-lg" />
               </Link>
               <Link
-                href="https://github.com/salmanahmed-dev"
+                href="https://github.com/salmanahmed221"
                 target="_blank"
                 aria-label="GitHub"
                 className="w-11 h-11 glass-card rounded-lg flex items-center justify-center text-slate-400 hover:text-accent transition-colors"
